@@ -1,0 +1,29 @@
+.item{
+    color: blue;
+    text-align: center;
+   
+}
+
+.expense{
+    border-right:6px  solid red;
+}
+.income{
+    border-right:6px  solid green;
+}
+
+.item-list{
+    list-style: none;
+    padding: 0;
+   
+}
+
+.item-list li{
+    display: flex;
+    background: #ffffff;
+    box-shadow:0 1px 3px rgba(0, 0,0, 0.12) ;
+    padding: 15px;
+     color: #333;
+    justify-content: space-between;
+     margin: 15px;
+    
+}
